@@ -18,3 +18,68 @@ header, footer {
     padding: 1em;
     margin-bottom: 1em;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #f8c8dc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .producto {
+    width: calc(33% - 20px);
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .producto img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  form.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form input, form select, form textarea, form button {
+    padding: 8px;
+    font-size: 1em;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #eee;
+    margin-top: 40px;
+  }
+  
